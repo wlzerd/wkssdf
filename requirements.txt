@@ -1,1 +1,2 @@
 discord.js == 11.4.2
+package.json
