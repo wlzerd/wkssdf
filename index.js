@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '/';
 const ownerID = '277006365598154753';
-
+var express = require("express"),app = express();
 client.on('ready', () => {
     client.user.setPresence({
         status: "online",
